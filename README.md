@@ -1,2 +1,2 @@
 # odin-recipes
-This is going to be recipes to use HTML script
+The Odin Project- 1st project is to create HTML code for food recipes. 
