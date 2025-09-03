@@ -1,0 +1,81 @@
+/* ===== Reset for consistency ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Base styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue; /* Page background */
+  color: navy; /* Main text color */
+  padding: 20px;
+}
+
+/* ===== Headings ===== */
+h1 {
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 20px;
+ 
+}
+
+h2 {
+  color: royalblue;
+  margin: 20px 0 10px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  margin-bottom: 15px;
+}
+
+/* ===== Images ===== */
+img {
+  display: block;
+  margin: 12px auto;
+  border: 3px solid blue;
+}
+
+/* ===== Lists ===== */
+ul, ol {
+  background-color: skyblue;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== Links ===== */
+a {
+  font-weight: bold;
+  color: darkblue;
+}
+
+a.home-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: blue;
+}
+
+/* ===== Recipe list on index page ===== */
+.recipe-list {
+  list-style: none;
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.recipe-list li {
+  padding: 10px 0;
+}
+
+.recipe-list a {
+  font-size: 1.2rem;
+  color: navy;
+}
